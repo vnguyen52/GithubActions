@@ -34,7 +34,7 @@ namespace GithubActionsLab
         [Test]
         public void Subtract_Valid_Nguyen()
         {
-            Assert.AreEqual(2, Program.Subtract("1", "1"));
+            Assert.AreEqual(0, Program.Subtract("1", "1"));
             Assert.AreEqual(1, Program.Subtract("3", "2"));
             Assert.AreEqual(5, Program.Subtract("10", "5"));
         }
